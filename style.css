@@ -1,0 +1,235 @@
+body
+{
+	/*text-align: center;*/
+	font-family: verdana;
+	font-size: .8em;
+	background-color: #EAEAEA;
+	color: #444444;
+	margin: 0;
+	border: 0;
+	padding: 0;
+}
+
+h1
+{
+	margin: 0;
+	font-weight: normal;
+	padding: 0;
+	font-family: verdana;
+	font-size: 32pt;
+	letter-spacing: .125em;
+}
+
+h2
+{
+	margin: 0;
+	font-weight: normal;
+	padding: 0;
+	font-family: verdana;
+	font-size: 14pt;
+	letter-spacing: .125em;
+}
+
+th.submitbar
+{
+	text-align: right;
+}
+
+#body
+{
+	background-color: #EAEAEA;
+	width: 100%;
+}
+
+#head
+{
+	background-color: #EAEAEA;
+	width: 100%;
+}
+
+#main
+{
+	background-color: #EAEAEA;
+	width: 100%;
+}
+
+td.nav
+{
+	text-align: right;
+}
+
+table.navbar
+{
+	margin: 0;
+}
+
+table.navbar tr td
+{
+	margin: 0;
+	padding: 0;
+	border: 1px solid black;
+	width: 4em;
+	background-color: #C4C4C4;
+}
+
+table.sidebar
+{
+	background-color: #C4C4C4;
+	width: 100%;
+	margin: 4px 0 4px 0;
+	padding: 0;
+	border: 1px dashed black;
+	border-collapse: collapse;
+}
+
+table.sidebar tr.gray1 td
+{
+	background-color: #F3F3F3;
+}
+
+table.sidebar tr.gray2 td
+{
+	background-color: #E3E3E3;
+}
+
+table.scoresheet
+{
+	margin: 0;
+	padding: 0;
+	border: 1px solid black;
+	background-color: #C4C4C4;
+	width: 100%;
+	border-collapse: collapse;
+}
+
+table.scoresheet tr.gray1 td
+{
+	background-color: #F3F3F3;
+}
+
+table.scoresheet tr.gray2 td
+{
+	background-color: #E3E3E3;
+}
+
+table.scoresheet tr.red1 td
+{
+	background-color: #F3CCCC;
+}
+
+table.scoresheet tr.red2 td
+{
+	background-color: #E3CCCC;
+}
+
+table.scoresheet tr.green1 td
+{
+	background-color: #CCFECC;
+}
+
+table.scoresheet tr.green2 td
+{
+	background-color: #CCE3CC;
+}
+
+table.scoresheet tr td, table.scoresheet tr th
+{
+	border-right: 1px solid black;
+}
+
+table.songsheet
+{
+	margin: 0;
+	padding: 0;
+	border: 1px solid black;
+	background-color: #C4C4C4;
+	width: 100%;
+}
+
+table.songsheet tr.gray1 td
+{
+	background-color: #F3F3F3;
+}
+
+table.songsheet tr.gray2 td
+{
+	background-color: #E3E3E3;
+}
+
+table.songsheet tr th.selectable
+{
+	width: 8px;
+	background-color: #F3CCCC;
+}
+
+.left
+{
+	vertical-align: top;
+	width: 85%;
+	background-color: #F5F5F5;
+}
+
+.right
+{
+	vertical-align: top;
+	width: 15%;
+	background-color: #F5F5F5;
+}
+
+.profile
+{
+	margin: 0;
+	border: 0;
+}
+
+th, td
+{
+	white-space: nowrap;
+}
+
+a
+{
+	font-weight: bold;
+	color: #323286;
+	text-decoration: none;
+}
+
+a:hover
+{
+	color: #000060;
+}
+
+img
+{
+	border: 0px;
+}
+
+span.red
+{
+	color: #A93333;
+}
+
+span.blue
+{
+	color: #3333A9;
+}
+
+/*
+.backgray0 {background-color: #DADADA;}
+.backgray1 {background-color: #F9F9F9;}
+.backgray2 {background-color: #EAEAEA;}
+
+.forered {color: #A96666;}
+.backred0 {background-color: #FFAAAA;}
+
+.foreblue {color: #6666A9;}
+.backblue0 {background-color: #AAAAFF;}
+.backblue1 {background-color: #CCCCF9;}
+.backblue2 {background-color: #CCCCF0;}
+
+.backgreen0 {background-color: #AAFFAA;}
+.backgreen1 {background-color: #CCF9CC;}
+.backgreen2 {background-color: #CCF0CC;}
+
+.foreblack {color: #000000;}
+*/
