@@ -1,0 +1,11 @@
+<?php
+
+$otm_template["title"] = "OTM";
+
+$otm_template["register"] = "Register";
+$otm_template["activate"] = "Activate";
+$otm_template["login"] = "Log In";
+$otm_template["logout"] = "Log Out";
+$otm_template["viewusers"] = "View Users";
+
+?>

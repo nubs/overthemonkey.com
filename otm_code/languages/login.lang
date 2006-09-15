@@ -1,0 +1,11 @@
+<?php
+
+$lang["login_messages"]["success"]["v_status"] = "success";
+$lang["login_messages"]["username_invalid"]["v_status"] = "failure";
+$lang["login_messages"]["password_invalid"]["v_status"] = "failure";
+$lang["login_messages"]["bad_permissions"]["v_status"] = "failure";
+$lang["login_messages"]["password_wrong"]["v_status"] = "failure";
+$lang["login_messages"]["already_logged_in"]["v_status"] = "failure";
+
+# vim: set ft=php sw=4 ts=4 :
+?>

@@ -1,0 +1,6 @@
+<?php
+
+$lang["viewuser_messages"]["username_invalid"]["v_status"]="failure";
+
+# vim: set ft=php sw=4 ts=4 :
+?>

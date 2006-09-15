@@ -1,0 +1,8 @@
+<?php
+
+$lang["page"] = "View User";
+
+$lang["viewuser_messages"]["username_invalid"]["s_message"]="Invalid username.";
+
+# vim: set ft=php sw=4 ts=4 :
+?>

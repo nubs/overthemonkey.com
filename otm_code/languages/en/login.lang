@@ -1,0 +1,18 @@
+<?php
+global $username;
+
+$lang["page"] = "Login";
+
+$lang["login_form"][0]["s_username"] = "Username";
+$lang["login_form"][0]["s_password"] = "Password";
+$lang["login_form"][0]["s_submit"] = "Submit";
+
+$lang["login_messages"]["success"]["s_message"] = "Welcome, ".$_POST["username"].".";
+$lang["login_messages"]["username_invalid"]["s_message"] = "Please enter a username.";
+$lang["login_messages"]["password_invalid"]["s_message"] = "Please enter a password.";
+$lang["login_messages"]["bad_permissions"]["s_message"] = "You do not have permissions to login.  If you are a new user, please make sure to check your email in order to activate your account.";
+$lang["login_messages"]["password_wrong"]["s_message"] = "The entered username/password did not match.";
+$lang["login_messages"]["already_logged_in"]["s_message"] = "You are already logged in.";
+
+# vim: set ft=php sw=4 ts=4 :
+?>

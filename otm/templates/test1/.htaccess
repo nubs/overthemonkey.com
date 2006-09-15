@@ -1,0 +1,3 @@
+CheckSpelling off
+RewriteEngine on
+RewriteRule ^(.*)$ /otm_code/templates/test1/$1

@@ -1,0 +1,6 @@
+<?php
+
+$lang["page"] = "Users";
+
+# vim: set ft=php sw=4 ts=4 :
+?>

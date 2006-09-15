@@ -1,0 +1,7 @@
+<?php
+
+$lang["logout_messages"]["success"]["v_status"] = "success";
+$lang["logout_messages"]["already_logged_out"]["v_status"] = "failure";
+
+# vim: set ft=php sw=4 ts=4 :
+?>

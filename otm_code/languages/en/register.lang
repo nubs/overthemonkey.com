@@ -1,0 +1,25 @@
+<?php
+
+$lang["page"] = "Register";
+
+$lang["register_email"]["subject"] = "Over The Monkey Activation";
+$lang["register_email"]["message"] = "Please follow the link below to activate your account and start using Over The Monkey.\r\n";
+
+$lang["register_form"][0]["s_email"]="E-mail";
+$lang["register_form"][0]["s_username"]="Username";
+$lang["register_form"][0]["s_password"]="Password";
+$lang["register_form"][0]["s_password2"]="Confirm Password";
+$lang["register_form"][0]["s_submit"]="Submit";
+
+$lang["register_messages"]["success"]["s_message"]="Thank you for registering. A confirmation email has been sent to your email address.  Please follow the link in the email to activate your account.";
+$lang["register_messages"]["username_taken"]["s_message"]="That username is already taken.";
+$lang["register_messages"]["email_invalid"]["s_message"]="Please enter an email address.";
+$lang["register_messages"]["username_invalid"]["s_message"]="Please enter a username.";
+$lang["register_messages"]["password_invalid"]["s_message"]="Please enter a password.";
+$lang["register_messages"]["password2_invalid"]["s_message"]="Please reenter your password.";
+$lang["register_messages"]["passwords_different"]["s_message"]="The entered passwords did not match.";
+$lang["register_messages"]["bad_username"]["s_message"]="You can only use alphanumberic characters, spaces, underscores, and dashes in your username.";
+$lang["register_messages"]["bad_email"]["s_message"]="The email address does not appear to be valid.";
+
+# vim: set ft=php sw=4 ts=4 :
+?>

@@ -1,0 +1,12 @@
+<?php
+
+$lang["page"] = "Activate";
+
+$lang["activate_messages"]["success"]["s_message"] = "Your account has been activated.  You may now log in and use the site.";
+$lang["activate_messages"]["info_wrong"]["s_message"] = "Your activation credentials are wrong - please check your email for your activation link.";
+$lang["activate_messages"]["username_invalid"]["s_message"] = "Required information is missing - please check your email for your activation link.";
+$lang["activate_messages"]["sid_invalid"]["s_message"] = "Required information is missing - please check your email for your activation link.";
+$lang["activate_messages"]["already_activated"]["s_message"] = "Your account has already been activated.";
+
+# vim: set ft=php sw=4 ts=4 :
+?>

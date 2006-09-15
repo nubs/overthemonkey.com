@@ -1,0 +1,9 @@
+<?php
+
+$lang["page"] = "Logout";
+
+$lang["logout_messages"]["success"]["s_message"] = "You have logged out.";
+$lang["logout_messages"]["already_logged_out"]["s_message"] = "You are already logged out.";
+
+# vim: set ft=php sw=4 ts=4 :
+?>

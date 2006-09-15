@@ -1,0 +1,10 @@
+<?php
+
+$lang["page"] = "Index";
+
+$lang["body"][0]["string"]="See How They Run";
+$lang["body"][1]["string"]="See How They Fly";
+$lang["body"][2]["string"]="See How They Fall";
+
+# vim: set ft=php sw=4 ts=4 :
+?>

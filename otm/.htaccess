@@ -1,0 +1,10 @@
+CheckSpelling off
+RewriteEngine on
+
+RewriteRule ^(index|home)/$ /otm_code/index.php [L]
+RewriteRule ^register/$ /otm_code/register.php [L]
+RewriteRule ^(in|login)/$ /otm_code/login.php [L]
+RewriteRule ^(out|logout)/$ /otm_code/logout.php [L]
+RewriteRule ^(user|users|viewuser|viewusers)/$ /otm_code/viewusers.php [L]
+RewriteRule ^(user|users|viewuser|viewusers)/([^/]+)/ /otm_code/viewuser.php?username=$2 [L]
+RewriteRule ^(.*)$ /otm_code/$1

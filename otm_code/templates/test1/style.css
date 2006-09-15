@@ -1,0 +1,175 @@
+body
+{
+	font-family: sans-serif;
+	background-color: #FFF;
+	color: #333;
+	padding: 0;
+	border: 0;
+	margin: 0;
+}
+
+#page_header
+{
+	background-color: #F9F9F9;
+	border-bottom: 1px solid #000;
+	min-height: 7ex;
+}
+
+#page_title
+{
+	float: left;
+	font-size: 7.5ex;
+	color: #E9E9E9;
+}
+
+#page_menu
+{
+	margin-left: auto;
+}
+
+#page_menu td
+{
+	font-size: 1.7ex;
+	text-align: center;
+	background-color: #FFF;
+	border: 1px solid #000;
+	padding: .4ex 0;
+	width: 10ex;
+}
+
+#page_menu td a
+{
+	color: #008;
+}
+
+#page_menu td:hover
+{
+	background-color: #F2F2FF;
+	cursor: pointer;
+}
+
+#page_menu td:hover a
+{
+	color: #002;
+}
+
+#page_body
+{
+	clear: both;
+	width: 100%;
+}
+
+#page_main
+{
+	vertical-align: top;
+}
+
+#page_sidebar
+{
+	vertical-align: top;
+	width: 35ex;
+}
+
+#page_sidebar table.page_conf
+{
+	background-color: #FFF;
+	border-collapse: collapse;
+	border: 1px dashed #000;
+	margin-bottom: 1ex;
+	width: 100%;
+}
+
+#page_sidebar table.page_conf th
+{
+	font-weight: bold;
+	padding-left: .5ex;
+	text-align: left;
+}
+
+#page_sidebar table.page_conf td
+{
+	padding: 0 .5ex .1ex .5ex;
+}
+
+h1
+{
+	display: inline;
+	font-size: 3ex;
+}
+
+div.message
+{
+	padding: .5ex;
+	border: 1px solid #000;
+	margin-bottom: .5ex;
+}
+
+div.failure
+{
+	background-color: #FDD;
+}
+
+div.success
+{
+	background-color: #DFD;
+}
+
+table.listing
+{
+	width: 100%;
+	border: 1px solid #000;
+	border-collapse: collapse;
+}
+
+table.listing th
+{
+	border-right: 1px solid #000;
+}
+
+table.listing td
+{
+	border-right: 1px solid #000;
+}
+
+table.form
+{
+	border: 1px solid #000;
+	border-collapse: collapse;
+}
+
+table.form td
+{
+	padding: 2px 4px;
+}
+
+th
+{
+	background-color: #E7E7E7;
+}
+
+tr.row1 td
+{
+	background-color: #FCFCFC;
+}
+
+tr.row2 td
+{
+	background-color: #F3F3F3;
+}
+
+tr.submit td
+{
+	text-align: center;
+}
+
+input, select, textarea
+{
+	border: 1px solid #AAA;
+	background-color: #FFF;
+}
+
+a
+{
+	text-decoration: none;
+	color: #009;
+}

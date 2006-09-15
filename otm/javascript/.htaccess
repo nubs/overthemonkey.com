@@ -1,0 +1,3 @@
+CheckSpelling off
+RewriteEngine on
+RewriteRule ^(.*)$ /otm_code/javascript/$1

@@ -1,0 +1,10 @@
+<?php
+
+$lang["activate_messages"]["success"]["v_status"] = "success";
+$lang["activate_messages"]["info_wrong"]["v_status"] = "failure";
+$lang["activate_messages"]["username_invalid"]["v_status"] = "failure";
+$lang["activate_messages"]["sid_invalid"]["v_status"] = "failure";
+$lang["activate_messages"]["already_activated"]["v_status"] = "failure";
+
+# vim: set ft=php sw=4 ts=4 :
+?>

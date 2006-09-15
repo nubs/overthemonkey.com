@@ -1,0 +1,14 @@
+<?php
+
+$lang["register_messages"]["success"]["v_status"]="success";
+$lang["register_messages"]["username_taken"]["v_status"]="failure";
+$lang["register_messages"]["email_invalid"]["v_status"]="failure";
+$lang["register_messages"]["username_invalid"]["v_status"]="failure";
+$lang["register_messages"]["password_invalid"]["v_status"]="failure";
+$lang["register_messages"]["password2_invalid"]["v_status"]="failure";
+$lang["register_messages"]["passwords_different"]["v_status"]="failure";
+$lang["register_messages"]["bad_username"]["v_status"]="failure";
+$lang["register_messages"]["bad_email"]["v_status"]="failure";
+
+# vim: set ft=php sw=4 ts=4 :
+?>
