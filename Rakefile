@@ -1,6 +1,6 @@
 require 'rake/clean'
 
-CLOBBER.include('public/*.html', 'public/*.js', 'public/*.css')
+CLOBBER.include('public')
 
 PAGES = FileList['pages/*']
 JAVASCRIPT = FileList['js/*']
