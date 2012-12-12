@@ -1,13 +1,15 @@
 {
-	"name": "overthemonkey.com",
-	"description": "overthemonkey website",
-	"version": "0.1.0",
-	"author": "Spencer Rinehart",
-	"email": "anubis@overthemonkey.com",
-	"directories": {"pages": "./pages"},
-	"dependencies": {
-		"muffin": ">=0.3.0",
-		"glob": ">=3.1.9",
-		"html-minifier": ">=0.4.5"
-	}
+  "name": "overthemonkey.com",
+  "description": "overthemonkey website",
+  "version": "1.0.0",
+  "author": "Spencer Rinehart",
+  "email": "anubis@overthemonkey.com",
+  "engines": {
+    "node": "0.8.x",
+    "npm": "1.1.x"
+  },
+  "dependencies": {
+    "coffee-script": ">=1.4.0",
+    "express": ">=3.0.3"
+  }
 }
