@@ -1,0 +1,17 @@
+{
+    "name": "nubs/overthemonkey.com",
+    "description": "My personal website.",
+    "license": "MIT",
+    "authors": [
+      {
+        "name": "Spencer Rinehart",
+        "email": "anubis@overthemonkey.com"
+      }
+    ],
+    "require": {
+      "aura/di": "~2.0@dev",
+      "aura/router": "~2.0@dev",
+      "aura/dispatcher": "~2.0@dev",
+      "twig/twig": "~1.15"
+    }
+}
