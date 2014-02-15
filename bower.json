@@ -1,0 +1,18 @@
+{
+  "name": "overthemonkey.com",
+  "version": "0.1.0",
+  "homepage": "http://overthemonkey.com",
+  "authors": [
+    "Spencer Rinehart <anubis@overthemonkey.com>"
+  ],
+  "description": "My personal website.",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ],
+  "dependencies": {
+    "bootstrap": "3.x"
+  }
+}
