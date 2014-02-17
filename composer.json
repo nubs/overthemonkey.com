@@ -13,5 +13,17 @@
       "aura/router": "~2.0@dev",
       "aura/dispatcher": "~2.0@dev",
       "twig/twig": "~1.15"
+    },
+    "extra": {
+      "heroku": {
+        "document-root": "public",
+        "php-config": [
+          "date.timezone=America/New_York"
+          ],
+        "compile": [
+          "node_modules/.bin/gulp bower",
+          "node_modules/.bin/gulp"
+          ]
+      }
     }
 }
