@@ -13,6 +13,7 @@
     "bower_components"
   ],
   "dependencies": {
-    "bootstrap": "3.x"
+    "bootstrap": "3.x",
+    "font-awesome": "4.x"
   }
 }
