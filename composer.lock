@@ -11,12 +11,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/auraphp/Aura.Di.git",
-                "reference": "afbfd73f1315a1bd768affa06b7106ccbf04ebbe"
+                "reference": "970477fdbe48b8b1c8ba6a4ad281ac3ed9d29ce7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/auraphp/Aura.Di/zipball/afbfd73f1315a1bd768affa06b7106ccbf04ebbe",
-                "reference": "afbfd73f1315a1bd768affa06b7106ccbf04ebbe",
+                "url": "https://api.github.com/repos/auraphp/Aura.Di/zipball/970477fdbe48b8b1c8ba6a4ad281ac3ed9d29ce7",
+                "reference": "970477fdbe48b8b1c8ba6a4ad281ac3ed9d29ce7",
                 "shasum": ""
             },
             "require": {
@@ -58,7 +58,7 @@
                 "di",
                 "di container"
             ],
-            "time": "2014-02-03 14:22:02"
+            "time": "2014-02-26 01:20:03"
         },
         {
             "name": "aura/dispatcher",
