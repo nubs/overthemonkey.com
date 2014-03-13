@@ -25,11 +25,13 @@
 @navbar-default-bg: @body-bg;
 @navbar-default-border: @body-bg;
 
-@jumbotron-bg: #208c7d;
 @brand-primary: #0a5b50;
+@brand-primary-lighter: lighten(@brand-primary, 10%);
 @brand-secondary: #ef9e65;
+
+@jumbotron-bg: @brand-primary-lighter;
 @navbar-default-link-active-color: @brand-primary;
-@navbar-default-link-active-bg: @jumbotron-bg;
+@navbar-default-link-active-bg: @brand-primary-lighter;
 @thumbnail-bg: @brand-primary;
 @thumbnail-border: @brand-primary;
 @thumbnail-border-radius: @border-radius-base * 4;
