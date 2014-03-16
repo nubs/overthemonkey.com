@@ -6,6 +6,7 @@ return function(Container $app) {
     $app->set('router', function() {
         $router = (new RouterFactory())->newInstance();
         $router->add('home', '/');
+        $router->add('resume', '/resume');
 
         return $router;
     });

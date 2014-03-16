@@ -7,6 +7,9 @@ return function(Container $app) {
             'home' => function() use($app) {
                 return $app->get('templater')->loadTemplate('home.twig')->render([]);
             },
+            'resume' => function() use($app) {
+                return $app->get('templater')->loadTemplate('resume.twig')->render([]);
+            },
         ],
         'object_param' => 'action',
     ];
