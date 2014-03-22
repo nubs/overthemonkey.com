@@ -17,6 +17,7 @@
     "extra": {
       "heroku": {
         "document-root": "public",
+        "index-document": "index.php",
         "php-config": [
           "date.timezone=America/New_York"
           ],

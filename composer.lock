@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "43049c20313cc1e1a26a68e0dbf7917a",
+    "hash": "463fd3b08b4c589357243152bf4a0798",
     "packages": [
         {
             "name": "aura/di",
@@ -11,12 +11,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/auraphp/Aura.Di.git",
-                "reference": "970477fdbe48b8b1c8ba6a4ad281ac3ed9d29ce7"
+                "reference": "c6efdf2ed4816c505af4f5b8f074ed7832330023"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/auraphp/Aura.Di/zipball/970477fdbe48b8b1c8ba6a4ad281ac3ed9d29ce7",
-                "reference": "970477fdbe48b8b1c8ba6a4ad281ac3ed9d29ce7",
+                "url": "https://api.github.com/repos/auraphp/Aura.Di/zipball/c6efdf2ed4816c505af4f5b8f074ed7832330023",
+                "reference": "c6efdf2ed4816c505af4f5b8f074ed7832330023",
                 "shasum": ""
             },
             "require": {
@@ -58,7 +58,7 @@
                 "di",
                 "di container"
             ],
-            "time": "2014-02-26 01:20:03"
+            "time": "2014-03-15 15:12:18"
         },
         {
             "name": "aura/dispatcher",
@@ -66,12 +66,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/auraphp/Aura.Dispatcher.git",
-                "reference": "d92786384be85b4ed92ee277589d22710580a202"
+                "reference": "bc03a780ecfd32ea85d1cf187343a0e9af6fe542"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/auraphp/Aura.Dispatcher/zipball/d92786384be85b4ed92ee277589d22710580a202",
-                "reference": "d92786384be85b4ed92ee277589d22710580a202",
+                "url": "https://api.github.com/repos/auraphp/Aura.Dispatcher/zipball/bc03a780ecfd32ea85d1cf187343a0e9af6fe542",
+                "reference": "bc03a780ecfd32ea85d1cf187343a0e9af6fe542",
                 "shasum": ""
             },
             "require": {
@@ -108,7 +108,7 @@
                 "dispatcher",
                 "factory"
             ],
-            "time": "2014-01-31 15:59:48"
+            "time": "2014-03-15 15:14:01"
         },
         {
             "name": "aura/router",
@@ -116,12 +116,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/auraphp/Aura.Router.git",
-                "reference": "004dea14e42c42db406e5d3e8ad19d8861e31f3c"
+                "reference": "0c4c4bdcb62edbbcff07489678cb08a5978a41d9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/auraphp/Aura.Router/zipball/004dea14e42c42db406e5d3e8ad19d8861e31f3c",
-                "reference": "004dea14e42c42db406e5d3e8ad19d8861e31f3c",
+                "url": "https://api.github.com/repos/auraphp/Aura.Router/zipball/0c4c4bdcb62edbbcff07489678cb08a5978a41d9",
+                "reference": "0c4c4bdcb62edbbcff07489678cb08a5978a41d9",
                 "shasum": ""
             },
             "require": {
@@ -158,7 +158,7 @@
                 "router",
                 "routing"
             ],
-            "time": "2014-02-09 19:13:05"
+            "time": "2014-03-15 15:15:47"
         },
         {
             "name": "twig/twig",
