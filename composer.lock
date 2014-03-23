@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "463fd3b08b4c589357243152bf4a0798",
+    "hash": "aef63393b01b9202eaacb922c6d76595",
     "packages": [
         {
             "name": "aura/di",

@@ -22,7 +22,6 @@
           "date.timezone=America/New_York"
           ],
         "compile": [
-          "node_modules/.bin/gulp bower",
           "node_modules/.bin/gulp"
           ]
       }
