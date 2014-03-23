@@ -9,7 +9,7 @@ var paths = {
 };
 
 gulp.task('bower', function() {
-  bower();
+  return bower();
 });
 
 gulp.task('css', ['bower'], function() {
