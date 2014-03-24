@@ -7,7 +7,4 @@ return function(Container $app) {
 
     $router = require __DIR__ . '/config/router.php';
     $router($app);
-
-    $dispatcher = require __DIR__ . '/config/dispatcher.php';
-    $dispatcher($app);
 };

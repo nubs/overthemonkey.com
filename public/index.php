@@ -18,5 +18,4 @@ if ($route === false) {
     exit(1);
 }
 
-$dispatcher = $app->get('dispatcher');
-echo $dispatcher($route->params);
+echo $app->get('templater')->loadTemplate("{$route->params['action']}.twig")->render(['page' => $route->params['action']]);

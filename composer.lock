@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "72177f6d065f4dacc2b7d4d0ab12a02a",
+    "hash": "419ec8eae6e00137a65d93e3fbbfe26e",
     "packages": [
         {
             "name": "aura/di",
@@ -59,56 +59,6 @@
                 "di container"
             ],
             "time": "2014-03-15 15:12:18"
-        },
-        {
-            "name": "aura/dispatcher",
-            "version": "dev-develop-2",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/auraphp/Aura.Dispatcher.git",
-                "reference": "bc03a780ecfd32ea85d1cf187343a0e9af6fe542"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/auraphp/Aura.Dispatcher/zipball/bc03a780ecfd32ea85d1cf187343a0e9af6fe542",
-                "reference": "bc03a780ecfd32ea85d1cf187343a0e9af6fe542",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.4.0"
-            },
-            "type": "library",
-            "extra": {
-                "aura": {
-                    "type": "library"
-                },
-                "branch-alias": {
-                    "dev-develop-2": "2.0.x-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Aura\\Dispatcher\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "BSD-2-Clause"
-            ],
-            "authors": [
-                {
-                    "name": "Aura.Dispatcher Contributors",
-                    "homepage": "https://github.com/auraphp/Aura.Dispatcher/contributors"
-                }
-            ],
-            "description": "Creates objects from a factory and invokes methods using named parameters; also provides a trait for invoking closures and object methods with named parameters.",
-            "homepage": "https://github.com/auraphp/Aura.Dispatcher/releases",
-            "keywords": [
-                "controller",
-                "dispatcher",
-                "factory"
-            ],
-            "time": "2014-03-15 15:14:01"
         },
         {
             "name": "aura/router",
@@ -227,8 +177,7 @@
     "minimum-stability": "stable",
     "stability-flags": {
         "aura/di": 20,
-        "aura/router": 20,
-        "aura/dispatcher": 20
+        "aura/router": 20
     },
     "platform": [
 
