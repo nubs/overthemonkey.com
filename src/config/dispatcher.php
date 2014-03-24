@@ -5,7 +5,7 @@ return function(Container $app) {
     $app->params['Aura\Dispatcher\Dispatcher'] = [
         'objects' => [
             'home' => function() use($app) {
-                return $app->get('templater')->loadTemplate('home.twig')->render(['page' => 'index']);
+                return $app->get('templater')->loadTemplate('home.twig')->render(['page' => 'home']);
             },
             'resume' => function() use($app) {
                 return $app->get('templater')->loadTemplate('resume.twig')->render(['page' => 'resume']);
