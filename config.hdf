@@ -1,0 +1,4 @@
+Server {
+  SourceRoot = public
+  DefaultDocument = index.php
+}
