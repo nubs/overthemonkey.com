@@ -1,0 +1,66 @@
+I hereby claim:
+
+  * I am an admin of http://www.overthemonkey.com
+  * I am nubs (https://keybase.io/nubs) on keybase.
+  * I have a public key with fingerprint 6E15 C8E3 086C E07E B332  C060 C3FC 3474 7FF3 9A9A
+
+To claim this, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "fingerprint": "6e15c8e3086ce07eb332c060c3fc34747ff39a9a",
+            "host": "keybase.io",
+            "key_id": "C3FC34747FF39A9A",
+            "uid": "e3687d905e4897c05841b4ceec6c3400",
+            "username": "nubs"
+        },
+        "service": {
+            "hostname": "www.overthemonkey.com",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1395915915,
+    "expire_in": 157680000,
+    "prev": "31f33f5aa3319788296bb7b742300d4c00f68367e5b8a5f5a7a08d233a8378ea",
+    "seqno": 9,
+    "tag": "signature"
+}
+
+with the aforementioned key, yielding the PGP signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: GnuPG v1.4.14 (GNU/Linux)
+
+owGbwMvMwMR4+I9JSf3nWbMYTx/4lsQQbPynu1opKT+lUsmqWik7FUylZealpxYV
+FGXmlShZKZmlGpomW6QaG1iYJacamKcmGRsbJRuYGSQbpyUbm5ibmKelGVsmWiYq
+6Shl5BeDdACNSUosTtXLzAeKATnxmSlAUWdjN2ewejc3Y0tHS0egXClYItXYzMI8
+xdLANNXEwtI82cDUwsQwySQ5NTXZDGiBgQFIYXFqUV5ibipQdV5pUrFSrY4SUKQs
+MzkV5F6QtVDZ8vJyvfyy1KKSjNTc/Dyg3XrJ+blAAwqK8kvyk/NzgEoySkoKrEAm
+lFQWgLWkJsVDDYtPysxLAXoeqAFoRnFmfp6SlSFQZXJJJsh0Q2NLU0tDENJRSq0o
+yCxKjc8EqTA1N7MwAAKQNallQCONDdOMjdNMExONjQ0tzS0sjCzNkpLMk8xNjIwN
+DFJMkg0M0swsjM3MU02TLBJNgQrNEw0sUoyMjRMtjM0tUkFBWZxamJevZGUJdGZi
+OtDI4sz0vMSS0qJUpdpOJhkWBkYmBjZWJlD0MXBxCsAiVfsx/z+FqdyP/RJarkft
+/f5KVzTQ59GsTTNe+L35el2UX+H/v0jLbcfvuB0V3zRB1o/LttyvM0pir92pfL4l
+7F89/M46xbBMN10bWrfK0jsz6N36YwcFT6Q2ZL7SCt92QzLywaF7d3Jnr+ScHbLO
+++6Cb5vP6mdWVsz90FaXOM1tX9/RV/YC0VOnPdyfuKkoVfYa98frn9MYQw6t3a96
+vuFm2Eqf9DtyzlHt8oecDr41vPTkqq0DY3TafYYuo1r5dy6G87ZbCu0R/LTqxrol
+Bj0efUFXM241Bb3Wl2W5fWPThMdu3hE1j0K6N8w+qL5sk8glzpjXXs5KDJfCb/e9
+ZD46xUJjh3m09MnfHo1SOT/vufFX2+keE+q+rjFJRS1gloJ3ZpzPn6pnP79sYur6
+Znjevvy0Qdy8+yve+sXtWG9XsCuNRbGAZ5/91SA/HbUHH6MfLxDl/mfzsfiCAcfr
+ydPM0if+/MWiZu+42DLaaULXUtXFb7ULk4w1q7iX1Ifddzp+uuLq36JPSQay7hyl
+Fof3dV3xzqiXi7oq/s3hn0vZ3+gbvQ8tZp541+hWuLBjM8d5nrgCkdURc85Psi4w
+YypSr6xf9rBzudiljmXlHdIL9923f7Np2eWpzJuiGmqD9rrlbj479cbUmVxRZ52v
+dQs9kVfwb5v5/81byQuTr8+6xJIiuWZu/+PKFCmvX9+m87hLctXdDfbPNxe22+9h
+9hYA
+=LPVH
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/nubs
+
+==================================================================
