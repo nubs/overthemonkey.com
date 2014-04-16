@@ -11,12 +11,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/auraphp/Aura.Di.git",
-                "reference": "c6efdf2ed4816c505af4f5b8f074ed7832330023"
+                "reference": "2389f343f983ec9ebd64fefd8f2da97b3f18bcde"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/auraphp/Aura.Di/zipball/c6efdf2ed4816c505af4f5b8f074ed7832330023",
-                "reference": "c6efdf2ed4816c505af4f5b8f074ed7832330023",
+                "url": "https://api.github.com/repos/auraphp/Aura.Di/zipball/2389f343f983ec9ebd64fefd8f2da97b3f18bcde",
+                "reference": "2389f343f983ec9ebd64fefd8f2da97b3f18bcde",
                 "shasum": ""
             },
             "require": {
@@ -34,10 +34,7 @@
             "autoload": {
                 "psr-4": {
                     "Aura\\Di\\": "src/"
-                },
-                "files": [
-                    "autoload.php"
-                ]
+                }
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -58,7 +55,7 @@
                 "di",
                 "di container"
             ],
-            "time": "2014-03-15 15:12:18"
+            "time": "2014-04-16 16:37:09"
         },
         {
             "name": "aura/router",
@@ -66,12 +63,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/auraphp/Aura.Router.git",
-                "reference": "0d30048f4b9f0845e0f6c7eeb3ac74b829bd8df9"
+                "reference": "c9794e7dd26cc41984056fc17da061c17a86ad70"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/auraphp/Aura.Router/zipball/0d30048f4b9f0845e0f6c7eeb3ac74b829bd8df9",
-                "reference": "0d30048f4b9f0845e0f6c7eeb3ac74b829bd8df9",
+                "url": "https://api.github.com/repos/auraphp/Aura.Router/zipball/c9794e7dd26cc41984056fc17da061c17a86ad70",
+                "reference": "c9794e7dd26cc41984056fc17da061c17a86ad70",
                 "shasum": ""
             },
             "require": {
@@ -80,7 +77,10 @@
             "type": "library",
             "extra": {
                 "aura": {
-                    "type": "library"
+                    "type": "library",
+                    "config": {
+                        "common": "Aura\\Router\\_Config\\Common"
+                    }
                 },
                 "branch-alias": {
                     "dev-develop-2": "2.0.x-dev"
@@ -88,7 +88,8 @@
             },
             "autoload": {
                 "psr-4": {
-                    "Aura\\Router\\": "src/"
+                    "Aura\\Router\\": "src/",
+                    "Aura\\Router\\_Config\\": "config/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -108,7 +109,7 @@
                 "router",
                 "routing"
             ],
-            "time": "2014-03-23 08:33:19"
+            "time": "2014-04-15 18:23:18"
         },
         {
             "name": "twig/twig",
