@@ -1,9 +1,10 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
     ],
-    "hash": "419ec8eae6e00137a65d93e3fbbfe26e",
+    "hash": "c256bbe90c00e7d7979f805837964bb0",
     "packages": [
         {
             "name": "aura/di",
@@ -11,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/auraphp/Aura.Di.git",
-                "reference": "2389f343f983ec9ebd64fefd8f2da97b3f18bcde"
+                "reference": "5246645db7b369861e952fb9c3b7701d36c646f3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/auraphp/Aura.Di/zipball/2389f343f983ec9ebd64fefd8f2da97b3f18bcde",
-                "reference": "2389f343f983ec9ebd64fefd8f2da97b3f18bcde",
+                "url": "https://api.github.com/repos/auraphp/Aura.Di/zipball/5246645db7b369861e952fb9c3b7701d36c646f3",
+                "reference": "5246645db7b369861e952fb9c3b7701d36c646f3",
                 "shasum": ""
             },
             "require": {
@@ -55,7 +56,7 @@
                 "di",
                 "di container"
             ],
-            "time": "2014-04-16 16:37:09"
+            "time": "2014-05-30 17:00:18"
         },
         {
             "name": "aura/router",
@@ -63,12 +64,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/auraphp/Aura.Router.git",
-                "reference": "c9794e7dd26cc41984056fc17da061c17a86ad70"
+                "reference": "7edb4f7edd0f9b3a66bba7753d0aec6e4a95b0b5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/auraphp/Aura.Router/zipball/c9794e7dd26cc41984056fc17da061c17a86ad70",
-                "reference": "c9794e7dd26cc41984056fc17da061c17a86ad70",
+                "url": "https://api.github.com/repos/auraphp/Aura.Router/zipball/7edb4f7edd0f9b3a66bba7753d0aec6e4a95b0b5",
+                "reference": "7edb4f7edd0f9b3a66bba7753d0aec6e4a95b0b5",
                 "shasum": ""
             },
             "require": {
@@ -109,7 +110,7 @@
                 "router",
                 "routing"
             ],
-            "time": "2014-04-15 18:23:18"
+            "time": "2014-05-30 17:12:38"
         },
         {
             "name": "twig/twig",

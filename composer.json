@@ -17,6 +17,7 @@
       "heroku": {
         "document-root": "public",
         "framework": "slim",
+        "newrelic": true,
         "php-config": [
           "date.timezone=America/New_York"
         ],
