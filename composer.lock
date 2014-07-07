@@ -64,12 +64,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/auraphp/Aura.Router.git",
-                "reference": "7edb4f7edd0f9b3a66bba7753d0aec6e4a95b0b5"
+                "reference": "62bdb766d4acdf2cf0947180da390c13f2da32fd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/auraphp/Aura.Router/zipball/7edb4f7edd0f9b3a66bba7753d0aec6e4a95b0b5",
-                "reference": "7edb4f7edd0f9b3a66bba7753d0aec6e4a95b0b5",
+                "url": "https://api.github.com/repos/auraphp/Aura.Router/zipball/62bdb766d4acdf2cf0947180da390c13f2da32fd",
+                "reference": "62bdb766d4acdf2cf0947180da390c13f2da32fd",
                 "shasum": ""
             },
             "require": {
@@ -110,20 +110,20 @@
                 "router",
                 "routing"
             ],
-            "time": "2014-05-30 17:12:38"
+            "time": "2014-06-30 15:21:52"
         },
         {
             "name": "twig/twig",
-            "version": "v1.15.1",
+            "version": "v1.16.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/fabpot/Twig.git",
-                "reference": "1fb5784662f438d7d96a541e305e28b812e2eeed"
+                "reference": "8ce37115802e257a984a82d38254884085060024"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fabpot/Twig/zipball/1fb5784662f438d7d96a541e305e28b812e2eeed",
-                "reference": "1fb5784662f438d7d96a541e305e28b812e2eeed",
+                "url": "https://api.github.com/repos/fabpot/Twig/zipball/8ce37115802e257a984a82d38254884085060024",
+                "reference": "8ce37115802e257a984a82d38254884085060024",
                 "shasum": ""
             },
             "require": {
@@ -132,7 +132,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.15-dev"
+                    "dev-master": "1.16-dev"
                 }
             },
             "autoload": {
@@ -167,7 +167,7 @@
             "keywords": [
                 "templating"
             ],
-            "time": "2014-02-13 10:19:29"
+            "time": "2014-07-05 12:19:05"
         }
     ],
     "packages-dev": [
