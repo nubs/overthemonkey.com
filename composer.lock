@@ -64,12 +64,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/auraphp/Aura.Router.git",
-                "reference": "62bdb766d4acdf2cf0947180da390c13f2da32fd"
+                "reference": "6ca7112ece71ad81731bb3209c91dbd0324c4812"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/auraphp/Aura.Router/zipball/62bdb766d4acdf2cf0947180da390c13f2da32fd",
-                "reference": "62bdb766d4acdf2cf0947180da390c13f2da32fd",
+                "url": "https://api.github.com/repos/auraphp/Aura.Router/zipball/6ca7112ece71ad81731bb3209c91dbd0324c4812",
+                "reference": "6ca7112ece71ad81731bb3209c91dbd0324c4812",
                 "shasum": ""
             },
             "require": {
@@ -110,7 +110,7 @@
                 "router",
                 "routing"
             ],
-            "time": "2014-06-30 15:21:52"
+            "time": "2014-07-09 17:15:00"
         },
         {
             "name": "twig/twig",
