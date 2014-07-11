@@ -8,6 +8,8 @@ return function(Container $app) {
         $router->add('home', '/');
         $router->add('resume', '/resume');
         $router->add('portfolio', '/portfolio');
+        $router->add('blog-list', '/blog');
+        $router->add('blog-post', '/blog/{id}');
 
         return $router;
     });

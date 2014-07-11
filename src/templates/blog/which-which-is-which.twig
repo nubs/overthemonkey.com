@@ -1,0 +1,22 @@
+{% extends synopsis ? "blog-synopsis.twig" : "blog-post.twig" %}
+{% block blog_id %}which-which-is-which{% endblock %}
+{% block blog_title %}Which which is which?{% endblock %}
+{% block blog_author %}Spencer Rinehart{% endblock %}
+{% block blog_time %}2014-07-10 23:30 EDT{% endblock %}
+{% block blog_content %}
+<p>I just released version 1.0.0 of my <a href="https://github.com/nubs/which">which</a> PHP library and a <a href="https://github.com/nubs/which-cli">CLI</a> to go with it.  Phew!  This library parses the <code>PATH</code> environment variable and provides a locator in order to find where a command is located, imitating the standard <code>which</code> command.  For example:</p>
+
+<pre>
+$locatorFactory = new \Nubs\Which\LocatorFactory\PlatformLocatorFactory();
+$locator = $locatorFactory->create();
+
+echo $locator->locate('php');
+// /usr/bin/php
+</pre>
+
+<p>The library and CLI both include full support for POSIX systems (Linux, BSD, OSX, etc.) and for Windows.  I want to give a big thanks to <a href="https://github.com/DanAtDE">@DanAtDE</a> and <a href="https://github.com/chadicus">@chadicus</a> for helping out with the Windows support!  Trying to get it working for both platforms was a fun experience.  I'm happy with how things turned out and I had the opportunity to read some <a href="http://msdn.microsoft.com/en-us/library/windows/desktop/aa365247%28v=vs.85%29.aspx">interesting</a> documents because of it.</p>
+
+<p>My original inspiration for creating this library was to increase support for my still-developing <a href="https://github.com/nubs/sensible">sensible</a> library, which in turn was created to support <a href="https://github.com/guywithnose/release-notes">@guywithnose's release-notes</a> tool. (future blog posts forthcoming on both of these!)</a>  I created it primarily as a means of checking whether a user has a certain command available on their system.  This method of lookup allows for picking from a list of possible utilities (e.g., firefox, chrome, &hellip;) and picking the first one found.  I'm not aware of anything else out there in PHP to do this, so I'm hoping this utility is of use to others as well!</p>
+
+<p>There's plenty of documentation in the <a href="https://github.com/nubs/which">README</a>, so check it out and let me know what you think!</p>
+{% endblock %}

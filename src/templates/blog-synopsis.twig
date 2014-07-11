@@ -1,0 +1,4 @@
+<a href="/blog/{% block blog_id %}{% endblock %}" class="list-group-item">
+  <h3 class="list-group-item-heading">{% block blog_title %}{% endblock %}</h3>
+  <p class="list-group-item-text">{{ block("blog_content")|striptags[:300] }}&hellip;</p>
+</a>

@@ -18,4 +18,11 @@ if ($route === false) {
     exit(1);
 }
 
-echo $app->get('templater')->loadTemplate("{$route->params['action']}.twig")->render(['page' => $route->params['action']]);
+$params = ['page' => $route->params['action'], 'posts' => ['which-which-is-which']];
+$action = $route->params['action'];
+if (isset($route->params['id'])) {
+    $params['id'] = $route->params['id'];
+    $action = "blog/{$route->params['id']}";
+}
+
+echo $app->get('templater')->loadTemplate("{$action}.twig")->render($params);
