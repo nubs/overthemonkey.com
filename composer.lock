@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/auraphp/Aura.Di.git",
-                "reference": "5246645db7b369861e952fb9c3b7701d36c646f3"
+                "reference": "584532020363c0ffddf2e17fdeef3e8f1860cc9c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/auraphp/Aura.Di/zipball/5246645db7b369861e952fb9c3b7701d36c646f3",
-                "reference": "5246645db7b369861e952fb9c3b7701d36c646f3",
+                "url": "https://api.github.com/repos/auraphp/Aura.Di/zipball/584532020363c0ffddf2e17fdeef3e8f1860cc9c",
+                "reference": "584532020363c0ffddf2e17fdeef3e8f1860cc9c",
                 "shasum": ""
             },
             "require": {
@@ -56,7 +56,7 @@
                 "di",
                 "di container"
             ],
-            "time": "2014-05-30 17:00:18"
+            "time": "2014-08-04 14:29:22"
         },
         {
             "name": "aura/router",
@@ -64,12 +64,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/auraphp/Aura.Router.git",
-                "reference": "15bfae3ef14c316f070444346dd2398f86cf4107"
+                "reference": "48fc85a1cb6152b2292c709a8cb154701f187399"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/auraphp/Aura.Router/zipball/15bfae3ef14c316f070444346dd2398f86cf4107",
-                "reference": "15bfae3ef14c316f070444346dd2398f86cf4107",
+                "url": "https://api.github.com/repos/auraphp/Aura.Router/zipball/48fc85a1cb6152b2292c709a8cb154701f187399",
+                "reference": "48fc85a1cb6152b2292c709a8cb154701f187399",
                 "shasum": ""
             },
             "require": {
@@ -110,7 +110,7 @@
                 "router",
                 "routing"
             ],
-            "time": "2014-07-19 17:33:58"
+            "time": "2014-08-02 12:23:21"
         },
         {
             "name": "twig/twig",
@@ -181,6 +181,7 @@
         "aura/di": 20,
         "aura/router": 20
     },
+    "prefer-stable": false,
     "platform": [
 
     ],
