@@ -4,8 +4,7 @@ MAINTAINER Spencer Rinehart <anubis@overthemonkey.com>
 
 USER root
 
-RUN pacman --sync --refresh --sysupgrade --ignore filesystem --noconfirm --noprogressbar --quiet
-RUN pacman --sync --noconfirm --noprogressbar --quiet nodejs
+RUN pacman --sync --refresh --sysupgrade --ignore filesystem --noconfirm --noprogressbar --quiet && pacman --sync --noconfirm --noprogressbar --quiet nodejs
 
 # Configure PHP and install composer
 RUN echo -e '[PHP]\nopen_basedir =' >/etc/php/conf.d/basedir.ini
