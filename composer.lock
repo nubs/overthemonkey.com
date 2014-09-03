@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/auraphp/Aura.Di.git",
-                "reference": "efe03b6a278cdc02e834d167f11e36bbd02ece84"
+                "reference": "905b183727fe728409860aadf46687a2261771fc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/auraphp/Aura.Di/zipball/efe03b6a278cdc02e834d167f11e36bbd02ece84",
-                "reference": "efe03b6a278cdc02e834d167f11e36bbd02ece84",
+                "url": "https://api.github.com/repos/auraphp/Aura.Di/zipball/905b183727fe728409860aadf46687a2261771fc",
+                "reference": "905b183727fe728409860aadf46687a2261771fc",
                 "shasum": ""
             },
             "require": {
@@ -48,7 +48,7 @@
                 }
             ],
             "description": "Provides a dependency injection container system with native support for constructor- and setter-based injection, lazy-loading of services, and inheritable configuration of setters and constructor params.",
-            "homepage": "https://github.com/auraphp/Aura.Di/releases",
+            "homepage": "https://github.com/auraphp/Aura.Di",
             "keywords": [
                 "container",
                 "dependency injection",
@@ -56,7 +56,7 @@
                 "di",
                 "di container"
             ],
-            "time": "2014-08-31 16:49:07"
+            "time": "2014-09-03 16:02:42"
         },
         {
             "name": "aura/router",
