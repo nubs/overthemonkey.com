@@ -9,7 +9,7 @@
       }
     ],
     "require": {
-      "aura/di": "~2.0@dev",
+      "aura/di": "~2.0",
       "aura/router": "~2.0",
       "twig/twig": "~1.15"
     },
