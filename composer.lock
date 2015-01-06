@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "aura/di",
-            "version": "2.0.0",
+            "version": "2.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/auraphp/Aura.Di.git",
-                "reference": "65cc6553f174fabf373d8161129c47e09a8f31bc"
+                "reference": "68ffa4f76a2525ce3b7d211c09c71709a882556c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/auraphp/Aura.Di/zipball/65cc6553f174fabf373d8161129c47e09a8f31bc",
-                "reference": "65cc6553f174fabf373d8161129c47e09a8f31bc",
+                "url": "https://api.github.com/repos/auraphp/Aura.Di/zipball/68ffa4f76a2525ce3b7d211c09c71709a882556c",
+                "reference": "68ffa4f76a2525ce3b7d211c09c71709a882556c",
                 "shasum": ""
             },
             "require": {
@@ -56,20 +56,20 @@
                 "di",
                 "di container"
             ],
-            "time": "2014-10-04 20:10:36"
+            "time": "2014-11-06 18:13:34"
         },
         {
             "name": "aura/router",
-            "version": "2.1.0",
+            "version": "2.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/auraphp/Aura.Router.git",
-                "reference": "86e2ada79442b20c2c55747c442da2ec8fb48765"
+                "reference": "2544c687a5074ca8ce0dbe6d27a04c006a118e2a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/auraphp/Aura.Router/zipball/86e2ada79442b20c2c55747c442da2ec8fb48765",
-                "reference": "86e2ada79442b20c2c55747c442da2ec8fb48765",
+                "url": "https://api.github.com/repos/auraphp/Aura.Router/zipball/2544c687a5074ca8ce0dbe6d27a04c006a118e2a",
+                "reference": "2544c687a5074ca8ce0dbe6d27a04c006a118e2a",
                 "shasum": ""
             },
             "require": {
@@ -110,20 +110,20 @@
                 "router",
                 "routing"
             ],
-            "time": "2014-10-05 17:29:04"
+            "time": "2014-11-10 15:51:58"
         },
         {
             "name": "twig/twig",
-            "version": "v1.16.0",
+            "version": "v1.16.3",
             "source": {
                 "type": "git",
-                "url": "https://github.com/fabpot/Twig.git",
-                "reference": "8ce37115802e257a984a82d38254884085060024"
+                "url": "https://github.com/twigphp/Twig.git",
+                "reference": "6dc11a1e8ecfc30e2c68aaeb218148409d8e68af"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fabpot/Twig/zipball/8ce37115802e257a984a82d38254884085060024",
-                "reference": "8ce37115802e257a984a82d38254884085060024",
+                "url": "https://api.github.com/repos/twigphp/Twig/zipball/6dc11a1e8ecfc30e2c68aaeb218148409d8e68af",
+                "reference": "6dc11a1e8ecfc30e2c68aaeb218148409d8e68af",
                 "shasum": ""
             },
             "require": {
@@ -158,7 +158,7 @@
                 },
                 {
                     "name": "Twig Team",
-                    "homepage": "https://github.com/fabpot/Twig/graphs/contributors",
+                    "homepage": "http://twig.sensiolabs.org/contributors",
                     "role": "Contributors"
                 }
             ],
@@ -167,7 +167,7 @@
             "keywords": [
                 "templating"
             ],
-            "time": "2014-07-05 12:19:05"
+            "time": "2014-12-25 19:58:19"
         }
     ],
     "packages-dev": [],
