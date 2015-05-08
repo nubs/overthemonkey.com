@@ -4,20 +4,20 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "ff206bdb3499e453ba77229a03607c1d",
+    "hash": "9c24382b6c450dfd6ccb6917ea39689f",
     "packages": [
         {
             "name": "aura/di",
-            "version": "2.1.0",
+            "version": "2.2.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/auraphp/Aura.Di.git",
-                "reference": "68ffa4f76a2525ce3b7d211c09c71709a882556c"
+                "reference": "28d96debd6af6360411a3fbe4088d458eb01d4d1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/auraphp/Aura.Di/zipball/68ffa4f76a2525ce3b7d211c09c71709a882556c",
-                "reference": "68ffa4f76a2525ce3b7d211c09c71709a882556c",
+                "url": "https://api.github.com/repos/auraphp/Aura.Di/zipball/28d96debd6af6360411a3fbe4088d458eb01d4d1",
+                "reference": "28d96debd6af6360411a3fbe4088d458eb01d4d1",
                 "shasum": ""
             },
             "require": {
@@ -56,24 +56,27 @@
                 "di",
                 "di container"
             ],
-            "time": "2014-11-06 18:13:34"
+            "time": "2015-03-26 21:57:56"
         },
         {
             "name": "aura/router",
-            "version": "2.2.0",
+            "version": "2.2.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/auraphp/Aura.Router.git",
-                "reference": "2544c687a5074ca8ce0dbe6d27a04c006a118e2a"
+                "reference": "936006dd8893182d5549178e7d0f984ff2d97839"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/auraphp/Aura.Router/zipball/2544c687a5074ca8ce0dbe6d27a04c006a118e2a",
-                "reference": "2544c687a5074ca8ce0dbe6d27a04c006a118e2a",
+                "url": "https://api.github.com/repos/auraphp/Aura.Router/zipball/936006dd8893182d5549178e7d0f984ff2d97839",
+                "reference": "936006dd8893182d5549178e7d0f984ff2d97839",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "aura/di": "~2.0"
             },
             "type": "library",
             "extra": {
@@ -110,24 +113,24 @@
                 "router",
                 "routing"
             ],
-            "time": "2014-11-10 15:51:58"
+            "time": "2015-03-27 16:04:00"
         },
         {
             "name": "twig/twig",
-            "version": "v1.18.0",
+            "version": "v1.18.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/twigphp/Twig.git",
-                "reference": "4cf7464348e7f9893a93f7096a90b73722be99cf"
+                "reference": "9f70492f44398e276d1b81c1b43adfe6751c7b7f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/twigphp/Twig/zipball/4cf7464348e7f9893a93f7096a90b73722be99cf",
-                "reference": "4cf7464348e7f9893a93f7096a90b73722be99cf",
+                "url": "https://api.github.com/repos/twigphp/Twig/zipball/9f70492f44398e276d1b81c1b43adfe6751c7b7f",
+                "reference": "9f70492f44398e276d1b81c1b43adfe6751c7b7f",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.2.4"
+                "php": ">=5.2.7"
             },
             "type": "library",
             "extra": {
@@ -167,7 +170,7 @@
             "keywords": [
                 "templating"
             ],
-            "time": "2015-01-25 17:32:08"
+            "time": "2015-04-19 08:30:27"
         }
     ],
     "packages-dev": [],
@@ -176,6 +179,8 @@
     "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
-    "platform": [],
+    "platform": {
+        "php": "~5.4 || ~7.0"
+    },
     "platform-dev": []
 }

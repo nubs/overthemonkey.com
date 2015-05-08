@@ -9,6 +9,7 @@
       }
     ],
     "require": {
+      "php": "~5.4 || ~7.0",
       "aura/di": "~2.0",
       "aura/router": "~2.0",
       "twig/twig": "~1.15"
