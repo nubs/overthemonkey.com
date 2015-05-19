@@ -16,8 +16,8 @@
   },
   "dependencies": {
     "gulp": "3.x",
-    "gulp-less": "1.x",
+    "gulp-less": "3.x",
     "gulp-bower": "0.0.x",
-    "gulp-minify-css": "0.3.x"
+    "gulp-minify-css": "1.x"
   }
 }
