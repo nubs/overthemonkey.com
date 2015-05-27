@@ -37,6 +37,16 @@
 @thumbnail-border: @brand-primary;
 @thumbnail-border-radius: @border-radius-base * 4;
 
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+
+  .content {
+    flex: 1;
+  }
+}
+
 #avatar li a {
   font-size: @font-size-h2;
   text-decoration: none;
@@ -68,10 +78,6 @@ footer {
 #brand {
   font-size: @font-size-h2;
   color: @brand-primary;
-}
-
-.blog-container {
-  margin-bottom: 1em;
 }
 
 h1, h2, h3 {
