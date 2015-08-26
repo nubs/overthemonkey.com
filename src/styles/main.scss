@@ -1,0 +1,90 @@
+$body-bg: #fff !default;
+$border-radius-base: 4px !default;
+
+$navbar-default-bg: $body-bg;
+$navbar-default-border: $body-bg;
+
+$brand-primary: #0a5b50;
+$brand-primary-lighter: lighten($brand-primary, 22%);
+$brand-secondary: #ef9e65;
+
+$jumbotron-bg: $brand-primary-lighter;
+$navbar-default-link-active-color: $brand-primary;
+$navbar-default-link-active-bg: $brand-primary-lighter;
+$thumbnail-bg: $brand-primary;
+$thumbnail-border: $brand-primary;
+$thumbnail-border-radius: $border-radius-base * 4;
+
+@import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/variables";
+@import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins";
+@import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/normalize";
+@import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/scaffolding";
+@import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/type";
+@import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/code";
+@import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/grid";
+@import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/forms";
+@import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/navs";
+@import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/navbar";
+@import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/list-group";
+@import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/jumbotron";
+@import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/thumbnails";
+@import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/alerts";
+@import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/utilities";
+
+@import "../../bower_components/font-awesome/scss/variables";
+@import "../../bower_components/font-awesome/scss/mixins";
+@import "../../bower_components/font-awesome/scss/path";
+@import "../../bower_components/font-awesome/scss/core";
+@import "../../bower_components/font-awesome/scss/icons";
+
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+
+  .content {
+    flex: 1;
+  }
+}
+
+#avatar li a {
+  font-size: $font-size-h2;
+  text-decoration: none;
+}
+
+footer {
+  background-color: $brand-secondary;
+  padding: 10px 0;
+}
+
+.jumbotron {
+  color: $brand-primary;
+}
+
+.lead {
+  color: $gray-lighter;
+  text-shadow: 2px 2px 1px $brand-primary;
+
+  a {
+    color: $gray-lighter;
+    font-weight: bold;
+  }
+}
+
+.navbar {
+  margin: 4px;
+}
+
+#brand {
+  font-size: $font-size-h2;
+  color: $brand-primary;
+}
+
+h1, h2, h3 {
+  font-variant: small-caps;
+  font-weight: bolder;
+}
+
+small {
+  color: $gray-light;
+}

@@ -1,10 +1,10 @@
 var gulp = require('gulp');
-var less = require('gulp-less');
+var sass = require('gulp-sass');
 var bower = require('gulp-bower');
 var minifyCSS = require('gulp-minify-css');
 
 var paths = {
-  css: 'src/styles/**/*.less',
+  css: 'src/styles/**/*.scss',
   fonts: 'bower_components/font-awesome/fonts/**/*'
 };
 
@@ -14,7 +14,7 @@ gulp.task('bower', function() {
 
 gulp.task('css', ['bower'], function() {
   return gulp.src(paths.css)
-    .pipe(less())
+    .pipe(sass())
     .pipe(minifyCSS())
     .pipe(gulp.dest('public/css'));
 });
