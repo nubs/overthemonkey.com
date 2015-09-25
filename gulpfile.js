@@ -24,7 +24,7 @@ gulp.task('fonts', ['bower'], function() {
     .pipe(gulp.dest('public/fonts'));
 });
 
-gulp.task('watch', function() {
+gulp.task('watch', ['default'], function() {
   gulp.watch(paths.css, ['css']);
 });
 
