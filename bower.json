@@ -13,7 +13,7 @@
     "bower_components"
   ],
   "dependencies": {
-    "bootstrap-sass": "3.x",
+    "bootstrap": "4.x",
     "font-awesome": "4.x"
   }
 }
