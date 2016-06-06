@@ -1,15 +1,16 @@
 <?php
 use Aura\Di\Container;
-use Aura\Router\RouterFactory;
+use Aura\Router\RouterContainer;
 
 return function(Container $app) {
     $app->set('router', function() {
-        $router = (new RouterFactory())->newInstance();
-        $router->add('home', '/');
-        $router->add('resume', '/resume');
-        $router->add('portfolio', '/portfolio');
-        $router->add('blog-list', '/blog');
-        $router->add('blog-post', '/blog/{id}');
+        $router = new RouterContainer();
+        $map = $router->getMap();
+        $map->get('home', '/');
+        $map->get('resume', '/resume');
+        $map->get('portfolio', '/portfolio');
+        $map->get('blog-list', '/blog');
+        $map->get('blog-post', '/blog/{id}');
 
         return $router;
     });

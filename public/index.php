@@ -1,16 +1,18 @@
 <?php
-use Aura\Di\Container;
-use Aura\Di\Factory;
+use Aura\Di\ContainerBuilder;
+use Zend\Diactoros\ServerRequestFactory;
 
 $appDir = dirname(__DIR__);
 require_once "{$appDir}/vendor/autoload.php";
 
-$app = new Container(new Factory());
+$containerBuilder = new ContainerBuilder();
+$app = $containerBuilder->newInstance();
 
 $config = require "{$appDir}/src/config.php";
 $config($app);
 
-$route = $app->get('router')->match(parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH), $_SERVER);
+$request = ServerRequestFactory::fromGlobals($_SERVER);
+$route = $app->get('router')->getMatcher()->match($request);
 
 if ($route === false) {
     http_response_code(404);
@@ -18,11 +20,11 @@ if ($route === false) {
     exit(1);
 }
 
-$params = ['page' => $route->params['action'], 'posts' => ['which-which-is-which']];
-$action = $route->params['action'];
-if (isset($route->params['id'])) {
-    $params['id'] = $route->params['id'];
-    $action = "blog/{$route->params['id']}";
+$attributes = ['page' => $route->handler, 'posts' => ['which-which-is-which']];
+$handler = $route->handler;
+if (isset($route->attributes['id'])) {
+    $attributes['id'] = $route->attributes['id'];
+    $handler = "blog/{$route->attributes['id']}";
 }
 
-echo $app->get('templater')->loadTemplate("{$action}.twig")->render($params);
+echo $app->get('templater')->loadTemplate("{$handler}.twig")->render($attributes);
