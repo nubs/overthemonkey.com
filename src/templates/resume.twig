@@ -2,25 +2,19 @@
 {% block title %}Résumé{% endblock %}
 {% block content %}
 <div class="container">
-  <div class="jumbotron">
-    <div class="row">
-      <div class="col-sm-3">
-        <div id="avatar">
-          <img src="https://0.gravatar.com/avatar/8432b3700f25faff657aef27a76d4e55?s=240" alt="A headshot of Spencer">
-          <h3>Spencer Rinehart</h3>
-        </div>
-      </div>
-      <div class="col-sm-9">
-        <h1 class="display-1">Résumé</h1>
-        <p class="lead">I am a full-stack engineer with over ten years of PHP experience and over four years of Node.js experience.  I have extensive experience with Linux as a development machine and as the base of a production software stack.  Over the past five years, I have also worked on various DevOps projects gaining experience with Docker, Ansible, Puppet, Chef, Jenkins CI, and Amazon Web Services.  One of my biggest passions is establishing best practices for an engineering team including proper version control usage, open source software, continuous integration, <a href="http://12factor.net/">12-factor architecture</a>, and community development, including hackathons and coding competitions.</p>
-      </div>
+  <header id="resume-header">
+    <div id="avatar">
+      <img src="https://0.gravatar.com/avatar/8432b3700f25faff657aef27a76d4e55?s=240" alt="A headshot of Spencer">
+      <h3>Spencer&nbsp;Rinehart</h3>
     </div>
-  </div>
-</div>
+    <div>
+      <h1>Résumé</h1>
+      <p class="lead">I am a full-stack engineer with over ten years of PHP experience and over four years of Node.js experience.  I have extensive experience with Linux as a development machine and as the base of a production software stack.  Over the past five years, I have also worked on various DevOps projects gaining experience with Docker, Ansible, Puppet, Chef, Jenkins CI, and Amazon Web Services.  One of my biggest passions is establishing best practices for an engineering team including proper version control usage, open source software, continuous integration, <a href="http://12factor.net/">12-factor architecture</a>, and community development, including hackathons and coding competitions.</p>
+    </div>
+  </header>
 
-<div class="container">
-  <div class="row">
-    <div class="col-lg-6">
+  <div id="resume">
+    <div>
       <h2><i class="fa fa-building-o"></i> Work Experience</h2>
       <h3>FloSports&ndash;Events</h3>
       <h4>Software Engineer <small>January&nbsp;2016&ndash;Present</small></h4>
@@ -44,7 +38,7 @@
       <p>The websites I serviced are primarily focused on classified advertising and dealer inventory and recieve thousands of requests per minute.  I gained work-related experience with PHP, JavaScript, HTML, CSS/Less, Ruby, Puppet, Chef, Linux, MongoDB, SOLR, and Python, among other technologies.</p>
     </div>
 
-    <div class="col-lg-6">
+    <div>
       <h2><i class="fa fa-certificate"></i> Education</h2>
       <h3>Virginia Tech</h3>
       <h4>Computer Science <small>August&nbsp;2003&ndash;May&nbsp;2006</small></h4>

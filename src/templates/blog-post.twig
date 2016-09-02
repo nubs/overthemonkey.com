@@ -1,13 +1,11 @@
 {% extends "base.twig" %}
 {% block title %}Blog - {{ block("blog_title") }}{% endblock %}
 {% block content %}
-<div class="container blog-container">
-  <div class="row">
-    <div class="col-lg-12">
-      <h1>{% block blog_title %}{% endblock %} <small>by {% block blog_author %}{% endblock %}</small></h1>
-      <h4><small>{{ block("blog_time")|date("l, F jS H:i:s T") }}</small></h4>
-      {% block blog_content %}{% endblock %}
-    </div>
-  </div>
+<div class="container">
+  <header>
+    <h1>{% block blog_title %}{% endblock %} <small>by {% block blog_author %}{% endblock %}</small></h1>
+    <h2><small>{{ block("blog_time")|date("l, F jS Y H:i:s T") }}</small></h2>
+  </header>
+  {% block blog_content %}{% endblock %}
 </div>
 {% endblock %}

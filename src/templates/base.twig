@@ -7,25 +7,25 @@
     <link rel="stylesheet" href="/css/main.css">
   </head>
   <body>
-    <nav class="navbar navbar-default">
-      <div class="container">
-        <a id="brand" class="navbar-brand" href="/">overTHEmonkey</a>
-        <ul class="nav navbar-nav nav-pills pull-right">
-          <li class="nav-item"><a class="nav-link{{ page == "home" ? ' active' }}" href="/">Home</a></li>
-          <li class="nav-item"><a class="nav-link{{ page == "resume" ? ' active' }}" href="/resume">Résumé</a></li>
-          <li class="nav-item"><a class="nav-link{{ page == "portfolio" ? ' active' }}" href="/portfolio">Portfolio</a></li>
-          <li class="nav-item"><a class="nav-link{{ page == "blog-list" or page == "blog-post" ? ' active' }}" href="/blog">Blog</a></li>
-        </ul>
-      </div>
+    <nav class="container">
+      <a id="brand" href="/">overTHEmonkey</a>
+      <ul>
+        <li><a class="{{ page == "home" ? 'active' }}" href="/">Home</a></li>
+        <li><a class="{{ page == "resume" ? 'active' }}" href="/resume">Résumé</a></li>
+        <li><a class="{{ page == "portfolio" ? 'active' }}" href="/portfolio">Portfolio</a></li>
+        <li><a class="{{ page == "blog-list" or page == "blog-post" ? 'active' }}" href="/blog">Blog</a></li>
+      </ul>
     </nav>
 
-    <div class="content">
+    <div id="main">
     {% block content %}{% endblock %}
     </div>
 
-    <footer class="text-center">
-      <p>Made by <a href="https://github.com/nubs">Spencer Rinehart</a> using <a href="http://php.net/">PHP</a>, the <a href="http://auraphp.com/">Aura Project</a>, <a href="http://getbootstrap.com/">Twitter Bootstrap</a>, and <a href="http://fortawesome.github.io/Font-Awesome/">Font Awesome</a>.</p>
-      <p>Website source is licensed under the <a href="http://opensource.org/licenses/MIT">MIT</a> license and available on <a href="https://github.com/nubs/overthemonkey.com">GitHub</a>.</p>
+    <footer>
+      <div class="container">
+        <p>Made by <a href="https://github.com/nubs">Spencer Rinehart</a> using <a href="http://php.net/">PHP</a>, the <a href="http://auraphp.com/">Aura Project</a>, <a href="http://getbootstrap.com/">Twitter Bootstrap</a>, and <a href="http://fortawesome.github.io/Font-Awesome/">Font Awesome</a>.</p>
+        <p>Website source is licensed under the <a href="http://opensource.org/licenses/MIT">MIT</a> license and available on <a href="https://github.com/nubs/overthemonkey.com">GitHub</a>.</p>
+      </div>
     </footer>
   </body>
 </html>
