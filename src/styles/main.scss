@@ -84,7 +84,9 @@ nav, footer, #main, #home {
 
 #resume-header #avatar {
   @include media-breakpoint-down(sm) {
-    display: none;
+    @media (not print) {
+      display: none;
+    }
   }
 }
 
@@ -193,4 +195,27 @@ pre {
 #resume-header h1 {
   font-size: $display3-size;
   font-weight: $display3-weight;
+}
+
+// Print rules
+.print-only {
+  display: none;
+}
+
+@media print {
+  html {
+    font-size: 12px;
+  }
+
+  nav, footer, #avatar img, #resume-header h1 {
+    display: none;
+  }
+
+  #resume-header, #resume {
+    flex-direction: column;
+  }
+
+  .print-only {
+    display: initial;
+  }
 }
