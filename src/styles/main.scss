@@ -1,6 +1,7 @@
-$brand-primary: #0a5b50;
-$brand-primary-lighter: lighten($brand-primary, 22%);
-$brand-secondary: #ef9e65;
+$theme-colors: (
+  "primary": #0a5b50,
+  "secondary": #ef9e65
+);
 
 @import "../../bower_components/bootstrap/scss/functions";
 @import "../../bower_components/bootstrap/scss/variables";
@@ -124,8 +125,8 @@ header {
 
 // Style rules
 header {
-  background-color: $brand-primary-lighter;
-  color: $brand-primary;
+  background-color: theme-color-level("primary", -8);
+  color: theme-color("primary");
 }
 
 .container header {
@@ -134,14 +135,14 @@ header {
 
 footer {
   text-align: center;
-  background-color: $brand-secondary;
+  background-color: theme-color("secondary");
 }
 
 #avatar {
   font-size: $h4-font-size;
 
   img {
-    border: $border-width * 4 solid $brand-primary;
+    border: $border-width * 2 solid theme-color("primary");
     border-radius: $border-radius * 4;
   }
 
@@ -164,7 +165,7 @@ footer {
 #brand {
   text-decoration: inherit;
   font-size: $h2-font-size;
-  color: $brand-primary;
+  color: theme-color("primary");
   padding: 0;
 }
 
@@ -173,7 +174,7 @@ h1, h2, h3 {
 }
 
 small {
-  color: $gray-300;
+  color: $gray-500;
 }
 
 pre {
