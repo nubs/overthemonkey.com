@@ -2,9 +2,9 @@ $brand-primary: #0a5b50;
 $brand-primary-lighter: lighten($brand-primary, 22%);
 $brand-secondary: #ef9e65;
 
+@import "../../bower_components/bootstrap/scss/functions";
 @import "../../bower_components/bootstrap/scss/variables";
 @import "../../bower_components/bootstrap/scss/mixins";
-@import "../../bower_components/bootstrap/scss/normalize";
 @import "../../bower_components/bootstrap/scss/reboot";
 
 @import "../../bower_components/font-awesome/scss/variables";
@@ -29,14 +29,14 @@ body {
 .container {
   max-width: 1170px;
   margin: 0 auto;
-  padding: $spacer-y $spacer-x;
+  padding: $spacer $spacer;
 }
 
 nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: $spacer-y / 2 0;
+  padding: $spacer / 2 0;
 
   @include media-breakpoint-down(sm) {
     flex-direction: column;
@@ -50,7 +50,7 @@ nav {
     padding: 0;
 
     li {
-      margin: 0 $spacer-x / 2;
+      margin: 0 $spacer / 2;
 
       .active {
         font-weight: bold;
@@ -69,7 +69,7 @@ nav, footer, #main, #home {
 
   div:not(:last-child) {
     @include media-breakpoint-up(md) {
-      padding-right: $spacer-x * 2;
+      padding-right: $spacer * 2;
     }
   }
 }
@@ -101,20 +101,20 @@ nav, footer, #main, #home {
     min-width: 33%;
 
     &:not(:last-child) {
-      margin-right: $spacer-x;
+      margin-right: $spacer;
     }
   }
 }
 
 header {
-  padding: $spacer-y $spacer-x;
-  margin-bottom: $spacer-y;
+  padding: $spacer $spacer;
+  margin-bottom: $spacer;
 }
 
 #avatar {
   img {
     width: 100%;
-    margin-bottom: $spacer-y;
+    margin-bottom: $spacer;
   }
 
   ul {
@@ -138,7 +138,7 @@ footer {
 }
 
 #avatar {
-  font-size: $font-size-h4;
+  font-size: $h4-font-size;
 
   img {
     border: $border-width * 4 solid $brand-primary;
@@ -151,7 +151,7 @@ footer {
 }
 
 .lead {
-  color: $gray-dark;
+  color: $gray-800;
   font-size: $lead-font-size;
   font-weight: $lead-font-weight;
 
@@ -163,7 +163,7 @@ footer {
 
 #brand {
   text-decoration: inherit;
-  font-size: $font-size-h2;
+  font-size: $h2-font-size;
   color: $brand-primary;
   padding: 0;
 }
@@ -173,13 +173,13 @@ h1, h2, h3 {
 }
 
 small {
-  color: $gray-light;
+  color: $gray-300;
 }
 
 pre {
-  padding: $spacer-y $spacer-x;
-  border: $border-width solid $gray-light;
-  background-color: $gray-lightest;
+  padding: $spacer $spacer;
+  border: $border-width solid $gray-300;
+  background-color: $gray-100;
   border-radius: $border-radius;
 }
 
@@ -188,7 +188,7 @@ pre {
   font-weight: $display3-weight;
 
   @include media-breakpoint-down(md) {
-    font-size: $font-size-h2;
+    font-size: $h2-font-size;
   }
 }
 
