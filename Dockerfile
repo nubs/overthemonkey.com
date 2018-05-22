@@ -4,17 +4,11 @@ MAINTAINER Spencer Rinehart <anubis@overthemonkey.com>
 
 USER root
 
-RUN pacman --sync --refresh --sysupgrade --ignore filesystem --noconfirm --noprogressbar --quiet && pacman --sync --noconfirm --noprogressbar --quiet nodejs
-
-# Configure PHP and install composer
-RUN echo -e '[PHP]\nopen_basedir =' >/etc/php/conf.d/basedir.ini
+RUN apk add --no-cache --virtual .nodejs nodejs
+RUN apk add --no-cache --virtual .gyp-deps python make gcc g++
 
 # Setup the site giving the build user access to execute (Docker sets uid/gid to 0 by default)
-ADD . /home/build/site
-RUN chown -R build /home/build
-
-USER build
-WORKDIR /home/build/site
+ADD . /code
 
 # Remove references to the git repository (mainly for bower's benefit - it has issues if the directory is in a git submodule)
 RUN rm -r .git
